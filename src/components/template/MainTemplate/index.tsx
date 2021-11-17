@@ -1,9 +1,9 @@
-import React from "react";
 import { AppShell } from "@mantine/core";
-import MainNav from "components/header/MainNav";
+import { MainNav } from "components/header";
+import React from "react";
 
 interface MainTemplateProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 const MainTemplate = ({ children }: MainTemplateProps) => {

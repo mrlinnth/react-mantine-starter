@@ -1,7 +1,6 @@
+import { Text } from "@mantine/core";
+import { MainTemplate } from "components/template";
 import React from "react";
-import { Link } from "react-router-dom";
-import { Button, Text } from "@mantine/core";
-import MainTemplate from "components/template/MainTemplate";
 
 const Home = () => {
   return (
