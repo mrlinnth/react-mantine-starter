@@ -1,7 +1,7 @@
+import { createStyles, getFocusStyles } from "@mantine/core";
 import React from "react";
 import { Link } from "react-router-dom";
-import { createStyles, getFocusStyles } from "@mantine/core";
-import { Logo } from "../Logo";
+import { Logo } from "..";
 
 const useStyles = createStyles((theme) => ({
   logo: {
