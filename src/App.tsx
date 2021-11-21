@@ -1,13 +1,18 @@
 import { About, Home } from "pages";
 import React from "react";
+import { QueryClient, QueryClientProvider } from "react-query";
 import { Route, Routes } from "react-router-dom";
+
+const queryClient = new QueryClient();
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="about" element={<About />} />
-    </Routes>
+    <QueryClientProvider client={queryClient}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+      </Routes>
+    </QueryClientProvider>
   );
 }
 

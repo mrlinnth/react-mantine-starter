@@ -1,4 +1,4 @@
-import { AppShell, Container } from "@mantine/core";
+import { AppShell } from "@mantine/core";
 import { MainNav } from "components/header";
 import { LeftSidebar } from "components/sidebar";
 import React, { useState } from "react";
@@ -22,7 +22,7 @@ const MainTemplate = ({ children }: MainTemplateProps) => {
         />
       }
     >
-      <Container>{children}</Container>
+      {children}
     </AppShell>
   );
 };
