@@ -25,6 +25,7 @@ ReactDOM.render(
           ],
         },
         primaryColor: "brand",
+        loader: "dots",
       }}
     >
       <BrowserRouter>

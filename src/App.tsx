@@ -1,4 +1,5 @@
-import { About, Home } from "pages";
+import { About } from "modules/About";
+import { Home } from "modules/Home";
 import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { Route, Routes } from "react-router-dom";

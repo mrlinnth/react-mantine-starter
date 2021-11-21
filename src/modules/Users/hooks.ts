@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { Users } from "services/api/Users";
+import { Users } from "./api";
 
 const getUsers = async () => {
   const { data } = await Users.index();

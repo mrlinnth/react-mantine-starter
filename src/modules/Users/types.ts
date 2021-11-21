@@ -1,4 +1,4 @@
-export default interface UserType {
+export interface UserInterface {
   uuid?: any | null;
   username: string;
   email: string;
