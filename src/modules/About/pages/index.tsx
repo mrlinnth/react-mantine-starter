@@ -1,6 +1,5 @@
 import { Text } from "@mantine/core";
 import { MainTemplate } from "components/template";
-import React from "react";
 
 const About = () => {
   return (
