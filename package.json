@@ -1,5 +1,6 @@
 {
-  "name": "react-starter",
+  "name": "react-mantine-starter",
+  "description": "React Typescript Skeleton Project with Mantine, React Router, React Query, Jotai and few other packages to assist with development",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
