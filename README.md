@@ -56,6 +56,11 @@ index.tsx
 
 - [faker api](https://fakerapi.it/en)
 
+## To Do
+
+- [ ] Add requirements to README
+- [ ] Add plop commands
+
 ---
 
 ## Available Scripts
