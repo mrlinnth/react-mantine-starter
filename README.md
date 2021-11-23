@@ -41,6 +41,12 @@ App.tsx (routes inside)
 index.tsx
 ```
 
+## Generator
+
+Use [Plop](https://plopjs.com/)
+
+- `plop module` : to generate a skeleton module
+
 ## Installed Packages
 
 - [mantine v3.1.9](https://mantine.dev/)
@@ -59,7 +65,7 @@ index.tsx
 ## To Do
 
 - [ ] Add requirements to README
-- [ ] Add plop commands
+- [x] Add plop commands
 
 ---
 
