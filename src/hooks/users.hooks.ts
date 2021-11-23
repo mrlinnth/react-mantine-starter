@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { Users } from "./api";
+import { Users } from "services/api/users.api";
 
 const config = { refetchOnWindowFocus: false };
 
