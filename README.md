@@ -5,8 +5,9 @@ Created to use as a starter/skeleton project for reactjs projects. Aim is to be 
 ## Project Structure
 
 - Feature/Modular based approach (recommended for scalability)
-- Dictionary index files in folders
-- Import `component`, `hook` and `type` from a module and use when necessary
+- Dictionary index files in sub-folders
+- First level `components`, `hooks`, `types` and `services` are for common functions
+- Module level `components`, `hooks`, `types` and `services` are for module specific
 - Module and Component folders/files use **PascalCase** names
 - Other folders/files use **camelCase** names
 - Both human and editor/IDE should be able to find files easily
@@ -21,20 +22,30 @@ Created to use as a starter/skeleton project for reactjs projects. Aim is to be 
         /header (use semantic names)
         /template
     /config (for any config eg: axios instance)
+    /hooks (for shared hooks)
     /modules
         /ModuleA
             /pages
             index.ts
         /ModuleB
-            /components (sub-component for the module)
-            api.ts (api for the module)
-            hooks.ts (custom hooks for the module)
+            /components (sub-components for the module)
+            services.ts (services for the module)
+            hooks.ts (hooks for the module)
             index.ts
             types.ts (types for the module)
+    /services (for shared services)
+        /api (for shared APIs)
+    /types (for shared types)
     /utils (helper functions, shared functions etc)
 App.tsx (routes inside)
 index.tsx
 ```
+
+## Generator
+
+Use [Plop](https://plopjs.com/)
+
+- `plop module` : to generate a skeleton module
 
 ## Installed Packages
 
@@ -50,6 +61,11 @@ index.tsx
 ## Services
 
 - [faker api](https://fakerapi.it/en)
+
+## To Do
+
+- [ ] Add requirements to README
+- [x] Add plop commands
 
 ---
 

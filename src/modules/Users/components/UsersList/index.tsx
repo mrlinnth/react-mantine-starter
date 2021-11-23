@@ -1,6 +1,6 @@
 import { Alert, List, Loader } from "@mantine/core";
-import { useUsers } from "modules/Users/hooks";
-import { UserType } from "modules/Users/types";
+import { useUsers } from "hooks/users.hooks";
+import { UserType } from "types/users.types";
 
 const UsersList = () => {
   const { isLoading, error, data, isSuccess } = useUsers();
